@@ -1,0 +1,58 @@
+{
+  "name": "loyalty-program-designer-skill",
+  "version": "1.0.0",
+  "description": "Design tiered customer loyalty programs with points systems, rewards, tier thresholds, and ROI projections for e-commerce brands.",
+  "author": "alphaparkinc",
+  "category": "retention",
+  "tags": [
+    "loyalty",
+    "retention",
+    "rewards",
+    "points",
+    "e-commerce"
+  ],
+  "inputs": {
+    "brand_name": {
+      "type": "string",
+      "description": "Brand or store name."
+    },
+    "avg_order_value": {
+      "type": "number",
+      "description": "Average order value in USD."
+    },
+    "purchase_frequency": {
+      "type": "number",
+      "description": "Average purchases per customer per year."
+    },
+    "num_tiers": {
+      "type": "integer",
+      "description": "Number of loyalty tiers.",
+      "default": 3
+    },
+    "points_per_dollar": {
+      "type": "number",
+      "description": "Points earned per dollar spent.",
+      "default": 1.0
+    }
+  },
+  "outputs": {
+    "program_name": {
+      "type": "string",
+      "description": "Generated loyalty program name."
+    },
+    "tiers": {
+      "type": "array",
+      "description": "Tier definitions with thresholds, benefits, and multipliers."
+    },
+    "points_system": {
+      "type": "object",
+      "description": "Points earning and redemption rules."
+    },
+    "roi_projection": {
+      "type": "object",
+      "description": "Projected impact on retention and revenue."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
