@@ -1,8 +1,8 @@
 {
   "name": "loyalty-program-designer-skill",
   "version": "1.0.0",
-  "description": "Design tiered customer loyalty programs with points systems, rewards, tier thresholds, and ROI projections for e-commerce brands.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Design tiered customer loyalty programs with points systems, rewards, tier thresholds, and ROI projections for e-commerce brands.",
+  "author": "genpark",
   "category": "retention",
   "tags": [
     "loyalty",
