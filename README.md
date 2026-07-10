@@ -1,4 +1,4 @@
-# loyalty-program-designer-skill
+# genpark-loyalty-program-designer-skill
 
 > **GenPark AI Agent Skill** -- Design tiered customer loyalty programs with points, rewards, and ROI projections.
 
